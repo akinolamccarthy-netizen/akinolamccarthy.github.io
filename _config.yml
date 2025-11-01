@@ -4,24 +4,6 @@ description: "A Data Analyst with about 3 years experience in Report Automation,
 baseurl: ""
 url: "https://akinolamccarthy.github.io"
 
-# Professional Information
-name: "Akinola Arilewola"
-role: "Data Analyst"
-email: "akinola_arilewola@yahoo.com"  
-linkedin_username: "Akinola Arilewola" 
-github_username: "AkinolaArilewola"
-
-# Skills
-skills:
-  - Microsoft Excel (Advanced)
-  - Data Analysis & Visualization
-  - Pivot Tables & Dashboard Creation
-  - Business Intelligence
-  - Data Cleaning & Transformation
-  - Statistical Analysis
-  - SQL
- 
-
 # Theme
 theme: jekyll-theme-cayman
 
