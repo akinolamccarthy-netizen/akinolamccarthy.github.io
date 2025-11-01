@@ -21,14 +21,6 @@ skills:
   - Statistical Analysis
   - SQL
  
-# Projects
-projects:
-  Londoner_Supermart:
-    name: "Londoner SuperMart Sales Analysis"
-    description: "Comprehensive Excel-based sales performance analysis with interactive dashboard"
-    tools: ["Microsoft Excel", "Pivot Tables", "Data Visualization", "Business Intelligence"]
-    github_link: "https://github.com/AkinolaArilewola/akinolamccarthy.github.io"
-    live_demo: "https://akinolamccarthy.github.io/londoner-supermart.html"
 
 # Theme
 theme: jekyll-theme-cayman
