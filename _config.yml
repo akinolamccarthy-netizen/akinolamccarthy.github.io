@@ -1,7 +1,8 @@
 title: "Akinola Arilewola"
-logo: "Akinola_Photo.jpg"
+logo: "Akinola_Photo.png"
 description: "A Data Analyst with about 3 years experience in Report Automation, using advanced Excel, Data manipulation and interrogation on SQL and Business Intelligence report on PowerBI"
-baseurl: ""
+# show_downloads: true
+# google_analytics:
 url: "https://akinolamccarthy.github.io"
 
 # Theme
