@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Londoner SuperMart Sales Analysis - Akinola Arilewola</title>
+    <style>
+        /* Include all the CSS from the previous HTML file */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-bg: #f8f9fa;
+            --text-color: #333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .project-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .project-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .tools-badge {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin: 0.5rem 0.2rem;
+        }
+        
+        .section {
+            padding: 3rem 0;
+            background: white;
+            margin: 1rem 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            text-align: center;
+            font-size: 2rem;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background: var(--light-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid var(--secondary-color);
+        }
+        
+        .metric-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        
+        .metric-label {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .insight-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #e1e1e1;
+        }
+        
+        .insight-card h4 {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .dashboard-preview {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .dashboard-placeholder {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            height: 400px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+        .cta-buttons {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            margin: 0 1rem;
+            background: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: var(--primary-color);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--secondary-color);
+            color: var(--secondary-color);
+        }
+        
+        .btn-outline:hover {
+            background: var(--secondary-color);
+            color: white;
+        }
+        
+        footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .project-title {
+                font-size: 2rem;
+            }
+            
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="project-title">Londoner SuperMart Sales Analysis Dashboard</h1>
+            <p class="project-subtitle">Comprehensive Excel-based sales performance analysis with interactive dashboard</p>
+            <div class="tools-container">
+                <span class="tools-badge">Microsoft Excel</span>
+                <span class="tools-badge">Pivot Tables</span>
+                <span class="tools-badge">Data Visualization</span>
+                <span class="tools-badge">Business Intelligence</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Project Overview Section -->
+        <section class="section">
+            <h2 class="section-title">Project Overview</h2>
+            <div class="project-description">
+                <p>This project presents a comprehensive sales analysis for <strong>Londoner SuperMart</strong>, leveraging Excel to transform raw transactional data into actionable insights. The dataset includes over 9,000 orders spanning multiple years, customer segments, product categories, and geographic regions.</p>
+                <p>The dashboard enables stakeholders to monitor performance, identify trends, and make data-driven decisions through interactive filters and dynamic visualizations.</p>
+            </div>
+        </section>
+
+        <!-- Key Metrics Section -->
+        <section class="section">
+            <h2 class="section-title">Key Performance Indicators</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">9,993</div>
+                    <div class="metric-label">Total Orders</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">$2,296,919</div>
+                    <div class="metric-label">Total Revenue</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">$286,409</div>
+                    <div class="metric-label">Total Profit</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">37,871</div>
+                    <div class="metric-label">Quantity Sold</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Preview -->
+        <section class="section">
+            <h2 class="section-title">Dashboard Preview</h2>
+            <div class="dashboard-preview">
+                <div class="dashboard-placeholder">
+                     Excel Dashboard Visualization<br>
+                    <small>(Interactive filters and charts would be displayed here)</small>
+                </div>
+                <p class="dashboard-description" style="margin-top: 1rem; text-align: center;">
+                    The dashboard features interactive slicers for Year, Customer Segment, and Product Category, 
+                    enabling dynamic exploration of sales patterns and performance metrics.
+                </p>
+            </div>
+        </section>
+
+        <!-- Key Insights Section -->
+        <section class="section">
+            <h2 class="section-title">Key Business Insights</h2>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <h4> Seasonal Trends</h4>
+                    <p>Sales and orders peak in <strong>November and December</strong>, indicating strong holiday season performance with steady growth from Q1 to Q4 across most years.</p>
+                </div>
+                <div class="insight-card">
+                    <h4> Weekly Patterns</h4>
+                    <p><strong>Fridays and Mondays</strong> show the highest sales volumes, suggesting strategic promotional opportunities, while Sundays consistently record the lowest activity.</p>
+                </div>
+                <div class="insight-card">
+                    <h4> Top Products</h4>
+                    <p><strong>Phones lead revenue</strong> ($330,007), followed by Chairs ($218,965) and Storage ($114,747), highlighting key product categories driving business growth.</p>
+                </div>
+                <div class="insight-card">
+                    <h4> Geographic Performance</h4>
+                    <p><strong>California dominates</strong> with $457,687 in sales, followed by New York ($310,876) and Washington ($138,441), revealing regional market strengths.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Implementation -->
+        <section class="section">
+            <h2 class="section-title">Technical Implementation</h2>
+            <div class="implementation-details">
+                <h3>Data Processing & Analysis</h3>
+                <ul style="list-style-position: inside; margin: 1rem 0;">
+                    <li><strong>Data Cleaning:</strong> Standardized formats, handled missing values, and validated data integrity</li>
+                    <li><strong>Pivot Tables:</strong> Dynamic aggregation of sales data by multiple dimensions</li>
+                    <li><strong>Chart Integration:</strong> Dual-axis charts comparing orders vs sales trends</li>
+                    <li><strong>Interactive Elements:</strong> Slicers for real-time data filtering and exploration</li>
+                </ul>
+                
+                <h3>Dashboard Features</h3>
+                <ul style="list-style-position: inside; margin: 1rem 0;">
+                    <li>Top summary cards with key metrics</li>
+                    <li>Monthly & daily sales analysis with trend visualization</li>
+                    <li>Product sub-category performance rankings</li>
+                    <li>Geographic sales distribution by state</li>
+                    <li>Customer segment analysis (Consumer, Corporate, Home Office)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="section">
+            <div class="cta-buttons">
+                <a href="https://github.com/AkinolaArilewola" class="btn">View My GitHub</a>
+                <a href="https://akinolamccarthy.github.io" class="btn btn-outline">Back to Portfolio</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Akinola Arilewola - Data Analyst Portfolio</p>
+            <p>Connect with me: 
+                <a href="https://linkedin.com/in/your-linkedin" style="color: white;">LinkedIn</a> | 
+                <a href="https://github.com/AkinolaArilewola" style="color: white;">GitHub</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
