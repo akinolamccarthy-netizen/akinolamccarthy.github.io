@@ -1,5 +1,6 @@
-title: "Akinola Arilewola - Data Analyst"
-description: "Data-driven insights | Excel | SQL | Business Intelligence"
+title: "Akinola Arilewola"
+logo: "Akinola_Photo.jpg"
+description: "A Data Analyst with about 3 years experience in Report Automation, using advanced Excel, Data manipulation and interrogation on SQL and Business Intelligence on PowerBI"
 baseurl: ""
 url: "https://akinolamccarthy.github.io"
 
@@ -31,4 +32,4 @@ projects:
 
 # Theme
 theme: jekyll-theme-cayman
-markdown: kramdown
+
