@@ -36,7 +36,7 @@
 
 **Dashboard Overview:**
 
-![Sales_Analysis](Sales_Analysis.jpg)
+![Sales_Analysis](Londoner_SUpermart_Sales_Analysis.png)
 The Excel dashboard is designed with user-friendly navigation and interactive filters:
 - Top Summary Cards: Display total orders, revenue, profit, and quantity
 - Monthly & Daily Analysis: Dual-axis charts showing the relationship between orders and sales
