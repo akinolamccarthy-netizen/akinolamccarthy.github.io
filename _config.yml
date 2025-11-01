@@ -1,0 +1,34 @@
+title: "Akinola Arilewola - Data Analyst"
+description: "Data-driven insights | Excel | SQL | Business Intelligence"
+baseurl: ""
+url: "https://akinolamccarthy.github.io"
+
+# Professional Information
+name: "Akinola Arilewola"
+role: "Data Analyst"
+email: "akinola_arilewola@yahoo.com"  
+linkedin_username: "Akinola Arilewola" 
+github_username: "AkinolaArilewola"
+
+# Skills
+skills:
+  - Microsoft Excel (Advanced)
+  - Data Analysis & Visualization
+  - Pivot Tables & Dashboard Creation
+  - Business Intelligence
+  - Data Cleaning & Transformation
+  - Statistical Analysis
+  - SQL
+ 
+# Projects
+projects:
+  Londoner_Supermart:
+    name: "Londoner SuperMart Sales Analysis"
+    description: "Comprehensive Excel-based sales performance analysis with interactive dashboard"
+    tools: ["Microsoft Excel", "Pivot Tables", "Data Visualization", "Business Intelligence"]
+    github_link: "https://github.com/AkinolaArilewola/akinolamccarthy.github.io"
+    live_demo: "https://akinolamccarthy.github.io/londoner-supermart.html"
+
+# Theme
+theme: jekyll-theme-cayman
+markdown: kramdown
