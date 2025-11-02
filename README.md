@@ -46,7 +46,7 @@ The Excel dashboard is designed with user-friendly navigation and interactive fi
 # Project 2
 
 **Title:** 
-Loan Application, Approval and Risk Insights (2019–2024)
+[Loan Application, Approval and Risk Insights (2019–2024)](https://github.com/AkinolaArilewola/akinolamccarthy.github.io/blob/main/Loan.xlsx)
 
 **Tools Used:**
 
