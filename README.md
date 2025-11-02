@@ -126,3 +126,18 @@ o	Age Range
 
 o	Employment Status
 
+# Project 3
+
+**Title:**
+Employee Data
+
+**SQL Code:**
+[HR Database-SQL code](https://github.com/AkinolaArilewola/akinolamccarthy.github.io/blob/main/Employee.SQL)
+
+
+**SQL Skills Used:**
+
+
+**Project Description:**
+
+**Technology used:** SQL server
