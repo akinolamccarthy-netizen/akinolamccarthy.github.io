@@ -129,7 +129,7 @@ o	Employment Status
 # Project 3
 
 **Title:**
-Employee Data
+Employee Data Analysis — HR Database
 
 **SQL Code:**
 [HR Database-SQL code](https://github.com/AkinolaArilewola/akinolamccarthy.github.io/blob/main/Employee.SQL)
@@ -137,7 +137,60 @@ Employee Data
 
 **SQL Skills Used:**
 
+Data Retrieval (SELECT): Queried and extracted employee and salary details based on specific conditions.
+
+Filtering (WHERE, BETWEEN, LIKE): Filtered records based on salary range, location, manager, and name patterns.
+
+Data Aggregation (COUNT, MAX, MIN, AVG): Calculated employee counts, and statistical insights into salary distributions.
+
+Data Deduplication (DISTINCT): Identified unique project names and removed duplicates from results.
+
+Conditional Logic (OR, AND): Combined multiple criteria to extract flexible query results.
+
+Set Operations (UNION): Combined employee records from multiple tables to identify unique employee IDs.
+
+String Pattern Matching (LIKE, Wildcards): Queried employees whose names followed specific letter sequences.
+
+Arithmetic Operations: Calculated total compensation by combining base salary and variable pay components.
+
+
 
 **Project Description:**
 
-**Technology used:** SQL server
+This project focuses on analyzing employee and salary information from an HR database using SQL Server. The goal is to answer key stakeholder questions regarding employee management, salary structures, and project assignments.
+
+As part of the HR analytics initiative, stakeholders requested insights to better understand:
+•	Which employees report to specific managers.
+
+•	The range and distribution of employee salaries.
+
+•	The geographic distribution of staff.
+
+•	Employee participation in projects.
+
+•	Total compensation breakdowns.
+
+•	Employee data integrity across multiple tables.
+
+This project demonstrates proficiency in SQL data manipulation, querying, aggregation, and relational joins, enabling decision-makers to gain a clearer picture of the company’s workforce dynamics.
+
+**Key Insights:**
+
+•	Efficiently identified hierarchical relationships between employees and managers.
+
+•	Discovered salary distribution patterns and highlighted potential pay range imbalances.
+
+•	Segmented employees by location and project participation, supporting HR resource planning.
+
+•	Verified data consistency across HR and payroll tables.
+
+•	Demonstrated ability to use UNION and aggregation functions to consolidate datasets.
+
+•	Applied logical operators and wildcard searches to uncover non-obvious employee patterns.
+
+**Technology used:** 
+
+• SQL Server: For querying and analyzing relational HR data
+
+• SSMS (SQL Server Management Studio): For writing, testing, and optimizing SQL queries
+
