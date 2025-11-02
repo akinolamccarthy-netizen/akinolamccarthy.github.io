@@ -42,3 +42,87 @@ The Excel dashboard is designed with user-friendly navigation and interactive fi
 - Monthly & Daily Analysis: Dual-axis charts showing the relationship between orders and sales
 - Sub-Category & State Tables: Highlight top contributors to revenue
 - Slicers: Allow filtering by year, segment, and category for deeper insight
+
+# Project 2
+
+**Title:** 
+Loan Application, Approval and Risk Insights (2019–2024)
+
+**Tools Used:**
+
+•	Microsoft Excel — Data Cleaning, Analysis, and Visualization
+•	Excel Power Query — Data Transformation
+•	Excel Charts and Pivot Tables — Dashboard Design and Metrics Analysis
+•	Custom Formulas: For calculating approval rates, credit score averages, income ratios, and risk scores
+•	Conditional Formatting: To highlight approval trends and risk categories
+
+**Project Description:**
+
+This project provides a comprehensive analysis of loan applications processed by Vazskit Loans Ltd from 2019 to 2024. The aim is to gain deeper insights into loan approval trends, applicant demographics, and financial risk factors influencing credit decisions.
+Using Excel, I developed an interactive dashboard that allows stakeholders to explore key metrics such as total applications, approval rates, credit score patterns, and risk categories. The analysis also evaluates the relationships between age, employment, marital status, income levels, and loan approval outcomes.
+The dashboard serves as a data-driven decision-making tool to help financial analysts and risk managers identify areas for improvement and understand the creditworthiness patterns of borrowers.
+
+
+**Key findings:**
+
+•	 20,000 total loan applications were received across all loan types.
+
+•	 £497.7M total loan amount was requested, of which £91.5M was approved.
+
+•	 The average credit score of applicants stood at 572, with an overall loan approval rate of 23.9%.
+
+•	Medium-risk applicants accounted for the largest proportion of applications and approvals.
+
+•	 The age group 31–40 years had the highest number of approved loans, indicating prime earning years are linked to stronger credit profiles.
+
+•	 Homeowners (42%) and those with mortgages had a higher loan approval rate compared to renters.
+
+•	 Employed applicants dominated approvals, with 4,089 approvals compared to only 253 for the unemployed.
+
+•	 Approved applicants had an average annual income of £102,211, compared to £45,641 for those rejected.
+
+•	 Married applicants (50%) were more likely to secure loans, possibly reflecting financial stability.
+
+
+**Dashboard Overview:**
+
+The interactive Excel dashboard features the following analytical visuals and filters:
+
+![Loan_Insight](Loan_Insight.png)
+
+**Key Metrics Summary Cards:**
+
+o	Total Loan Applications
+
+o	Total Loan Amount Requested
+
+o	Total Loan Amount Approved
+
+o	Average Credit Score
+
+o	Loan Approval Rate
+
+**Analytical Visuals:**
+
+1.	Total Loan Application & Approved by Loan Purpose
+2.	Total Loan Approved (Yes) & Rejected (No)
+3.	Risk Category vs. Average Credit Score
+4.	Total Loan Applications & Approved by Risk Categories
+5.	Total Loan Received & Approved by Age Group
+6.	Total Loan Approved Home by Ownership Status
+7.	Marital Status for Approved Loans
+8.	Total Loan Approved by Employment Status
+9.	Average Annual Income (Approved vs. Not Approved)
+    
+**Interactive Filters:**
+
+o	Application Date
+
+o	Risk Category
+
+o	Home Ownership
+
+o	Age Range
+
+o	Employment Status
+
