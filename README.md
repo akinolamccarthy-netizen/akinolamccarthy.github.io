@@ -194,3 +194,83 @@ This project demonstrates proficiency in SQL data manipulation, querying, aggreg
 
 • SSMS (SQL Server Management Studio): For writing, testing, and optimizing SQL queries
 
+# Project 4
+
+**Title:**
+Workplace Safety Analysis
+
+**SQL Code:**
+[Workplace Safety Database-SQL code](https://github.com/AkinolaArilewola/akinolamccarthy.github.io/blob/main/WorkplaceSafety.SQL)
+
+
+**SQL Skills Used:**
+
+- Data Retrieval (SELECT): Extracted incident records and attributes for analysis
+  
+- Filtering (WHERE): Isolated records based on report type, incident type, department, and plant
+  
+- Data Aggregation (COUNT, SUM, AVG): Calculated totals, averages, and distributions across multiple dimensions
+  
+- Grouping (GROUP BY): Segmented data by plant, department, shift, age group, and year
+  
+- Ordering (ORDER BY): Ranked results to identify highest-impact categories
+- Limiting (TOP): Retrieved top-performing or most frequent values
+- Distinct Selection (DISTINCT): Ensured unique combinations of month and year
+- Conditional Logic: Applied thresholds (e.g., days lost > 2) to highlight critical incidents
+- Data Comparison (BETWEEN, IN): Compared data across multiple categories for detailed insights
+
+
+**Project Description:**
+
+This project focuses on analyzing workplace safety data to provide insights that can help organizations identify trends, improve safety measures, and reduce incident occurrences and costs and operational risks.
+
+Using SQL Server, I explored and answered key stakeholder questions relating to incident types, costs, locations, shifts, departments, and employee demographics.
+The dataset includes information such as incident type, cost, department, shift, plant, gender, age group, and year, which were analyzed using various SQL techniques.
+
+The goal was to provide a data-driven understanding of workplace incidents, including their frequency, impact, and cost distribution.
+These insights can support Health and Safety officers, HR analysts, and management in designing preventive safety programs, prioritizing training, and allocating resources effectively.
+
+**Stakeholder Questions & Key Insights:**
+
+1. 	Incident Frequency by Plant
+→ Identified which plants had the highest number of reported incidents.
+2. 	Total Incident Cost by Department
+→ Summed costs to assess financial impact across departments.
+3. 	Incident Type with Highest Days Lost
+→ Ranked incident types by total days lost to highlight operational disruption.
+4. 	Incident Distribution by Shift
+→ Compared incident frequency across Day, Afternoon, and Night shifts.
+5. 	Average Cost by Injury Location
+→ Evaluated cost intensity of injuries by physical location.
+6. 	Most Affected Age Group
+→ Counted incidents by age group to inform targeted safety training.
+7. 	Lost Time Incidents by Plant
+→ Filtered for 'Lost Time' reports to assess serious disruptions.
+8. 	Crush & Pinch Incidents by Department
+→ Isolated and ranked departments with high mechanical injury risk.
+9. 	Near Miss Reports by Plant
+→ Highlighted proactive safety reporting across locations.
+10. Incident Volume by Year and Month
+→ Tracked incident trends over time for seasonal analysis.
+11. Gender-Based Incident Reporting
+→ Compared incident counts across gender groups.
+12. Annual Incident Cost
+→ Summed yearly costs to assess financial burden over time.
+13. Highest Cost Incident Type
+→ Identified the most financially damaging incident category.
+14. Cost by Report Type
+→ Compared cost distribution across 'Lost Time', 'Near Miss', etc.
+15. Departments with >2 Days Lost
+→ Flagged departments with prolonged recovery periods.
+16.	Average Days Lost per Incident Type
+→ Measured severity across incident categories.
+17.	Shift-Based Incident Distribution
+→ Reaffirmed incident patterns across work shifts.
+18.	Month with Highest Incidents
+→ Pinpointed peak periods for safety interventions.
+19.	Cost of Vehicle-Related Incidents
+→ Quantified financial impact of transport-related events.
+20.	Age Group Most Affected by Falling Objects
+→ Identified vulnerable demographics for specific hazards.
+
+
