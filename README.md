@@ -305,63 +305,63 @@ Financial & Revenue Analytics
 
 **Key findings:**
 
-1. Academic Performance Insights
+- Academic Performance Insights
 
-Average Grade Point (AGP) across all faculties = 3.28
+  Average Grade Point (AGP) across all faculties = 3.28
 
-The Business Faculty recorded the highest Average Grade Point.
+  The Business Faculty recorded the highest Average Grade Point.
 
-Most students fall under the Satisfactory Performance category (73.64%).
+  Most students fall under the Satisfactory Performance category (73.64%).
 
-8% of total students (262) with scholarship are at risk in academic performance, while it's 6% for total students (87) without scholarship.
+  8% of total students (262) with scholarship are at risk in academic performance, while it's 6% for total students (87) without scholarship.
 
-Grade performance peaked in 2022, showing strong academic output
+  Grade performance peaked in 2022, showing strong academic output
 
-2. Enrollment & Demographic Trends
+- Enrollment & Demographic Trends
 
-Gender distribution is almost equal (50.14% Female, 49.86% Male).
+  Gender distribution is almost equal (50.14% Female, 49.86% Male).
 
-Enrollment remained stable across 2019–2023.
+  Enrollment remained stable across 2019–2023.
 
-Students come from diverse countries, with Australia, Germany, and Canada ranking among the top nationalities.
+  Students come from diverse countries, with Australia, Germany, and Canada ranking among the top nationalities.
 
-3. Attendance & Performance Correlation
+- Attendance & Performance Correlation
 
-A strong positive relationship exists between attendance and grade point:
-Students with ≥ 85% attendance consistently achieved higher GPAs.
+  A strong positive relationship exists between attendance and grade point:
+  Students with ≥ 85% attendance consistently achieved higher GPAs.
 
-4. Revenue & Scholarship Insights
+- Revenue & Scholarship Insights
 
-Total Expected Tuition Revenue: £4.03M
+  Total Expected Tuition Revenue: £4.03M
 
-Total Scholarships Awarded: £485K
+  Total Scholarships Awarded: £485K
 
-Medicine and Business faculties generate the highest tuition income.
+  Medicine and Business faculties generate the highest tuition income.
 
-Fee status: 66.81% Paid, 33.11% Due.
+  Fee status: 66.81% Paid, 33.11% Due.
 
-Students with scholarships generally show slightly higher average grade points
+  Students with scholarships generally show slightly higher average grade points
 
 
 **Suggestions / Future Considerations for Stakeholders:**
 
-Academic Leadership
+  Academic Leadership
 
-Strengthen support programs for “At-Risk” students using early warning indicators (attendance + grades).
+  Strengthen support programs for “At-Risk” students using early warning indicators (attendance + grades).
 
-Expand successful teaching models from high-performing faculties (e.g., Business, Medicine).
+  Expand successful teaching models from high-performing faculties (e.g., Business, Medicine).
 
-Student Affairs
+  Student Affairs
 
-Develop targeted engagement programs for students with lower attendance.
+  Develop targeted engagement programs for students with lower attendance.
 
-Provide cultural support initiatives for international students by nationality trends.
+  Provide cultural support initiatives for international students by nationality trends.
 
-Finance Department
+  Finance Department
 
-Employ fee-due tracking to reduce outstanding tuition.
+  Employ fee-due tracking to reduce outstanding tuition.
 
-Assess the ROI of scholarship programs by linking academic outcomes to financial investment.
+  Assess the ROI of scholarship programs by linking academic outcomes to financial investment.
 
 
 **Dashboard Overview:**
@@ -376,11 +376,11 @@ Below are the visuals included in the dashboard:
 
 - Total Students by Grade Category: Pie chart categorizing students performance into:
 
-High Achievers
+  High Achievers
 
-Satisfactory
+  Satisfactory
 
-At Risk
+  At Risk
 
 - Average Grade Point by Academic Year: Line chart tracking performance trends from 2020–2024.
 
